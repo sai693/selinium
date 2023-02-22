@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-28T04:12:26.087Z",
+        "line": 3,
+        "name": "Search bdd in google search box",
+        "description": "",
+        "id": "verify-google-search-functionality-in-chrome;search-bdd-in-google-search-box",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11435374100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch chrome browser",
+            "match": {
+              "location": "stepDefinition.PrintGoogle.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter bdd in searcch box",
+            "match": {
+              "location": "stepDefinition.PrintGoogle.user_enter_bdd_in_searcch_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2141711000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on search button",
+            "match": {
+              "location": "stepDefinition.PrintGoogle.user_click_on_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify google search functionality in chrome",
+    "description": "",
+    "id": "verify-google-search-functionality-in-chrome",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/featuresfiles/PrintGoogle.feature",
+    "tags": []
+  }
+]
